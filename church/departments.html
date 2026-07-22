@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Departments – Jesus Christ Kingdom</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="rainbow-stripe"></div>
+
+<header>
+  <div class="logo-area">
+    <img class="logo-img" id="headerLogo" src="images/334c877e-0ec5-42a5-9dc8-2d06a6912757 (1).png" alt="JCK Logo">
+    <div class="logo-text">
+      <h1>Jesus Christ Kingdom</h1>
+      <p>Sons and Daughters of Revelation</p>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="departments.html" class="active">Departments</a>
+    <a href="lifechangers.html">Life Changers</a>
+    <a href="donations.html">Donate</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><i class="ti ti-menu-2"></i></button>
+</header>
+
+<div class="hero" style="min-height:44vh;">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Church Structure</p>
+    <h2>Our <span>Departments</span></h2>
+    <p class="hero-verse">Each department plays a vital role in the body of Christ at JCK. Click any department to learn more.</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="dept-list stagger">
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/cross.svg" alt=""></span>
+          Pastors' Department
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>Pastors have seemingly endless responsibilities — responding to members, delivering sermons, leading Bible study groups, and performing rites. They work hand in hand with deacons, evangelists and Wisemen in the smooth running of the church.</p>
+        <ul>
+          <li>Preaching, teaching and Bible study leadership</li>
+          <li>Baptisms, weddings, baby dedications and Lord's Supper</li>
+          <li>Pre-marital counselling and cell groups</li>
+          <li>Overseeing worship services and committee attendance</li>
+          <li>Must be married and ordained by the Apostle/Overseer</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/commandments.svg" alt=""></span>
+          Executive Committee
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>The Executive Committee guides strategy, oversight, and governance of the church.</p>
+        <ul>
+          <li>Strategic planning and long-term goal setting</li>
+          <li>Monitoring performance and accountability</li>
+          <li>Policy development and compliance</li>
+          <li>Members must demonstrate integrity, diverse expertise, and ethical conduct</li>
+          <li>Confidentiality and discretion in all sensitive matters</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/dove.svg" alt=""></span>
+          Healing and Delivery
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>The Wise Men are the spiritual security of the church, ensuring JCK does not experience spiritual attacks. Their gifts include deliverance, healing, and prophecy.</p>
+        <ul>
+          <li>Praying for people by laying on of hands and conducting mass prayers</li>
+          <li>Conducting mountain prayers and baptisms</li>
+          <li>Serving alongside and supporting the Apostle</li>
+          <li>Must be approved, ordained and proven to live a life worthy of the Gospel</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/choir.svg" alt=""></span>
+          Choir Department
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>The choir ministers in praise and worship — a direct communication with Heaven. Members must be clean and pure, understanding who they are in the Kingdom.</p>
+        <ul>
+          <li>Choir practice: every Friday 18:30 – 20:30</li>
+          <li>All Sunday choir members arrive 08:00 – 08:30 for prayer</li>
+          <li>Must be a fulltime, born-again, water and Holy Spirit baptised JCK member</li>
+          <li>New members begin as backup singers during a waiting period</li>
+          <li>Responsible for care and maintenance of all musical instruments</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/church-building.svg" alt=""></span>
+          Ushering Department
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>Ushers are the mirrors of the Kingdom — leading, directing, and serving members and visitors in all church activities.</p>
+        <ul>
+          <li>Must be filled with the Holy Spirit, self-confident, and willing to serve</li>
+          <li>Attend every church service, Sunday prayer, outreach, and whole-night services</li>
+          <li>Two attires: formal Ushering uniform and Deliverance attire</li>
+          <li>Vision to open a bank account to assist ushers in need</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/ichthus.svg" alt=""></span>
+          Evangelists Department
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>Evangelists are ordained by Apostle to win souls, hold cell groups, provide counselling, and intercede for the church.</p>
+        <ul>
+          <li>Opening all JCK services spiritually</li>
+          <li>House-to-house evangelism and hospital/prison visitation</li>
+          <li>Holding funeral services, all-night prayers, and Holy Communion</li>
+          <li>Caring for widows, orphans, and new members</li>
+          <li>Must understand the spiritual anointing and protocol of JCK</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/baby.svg" alt=""></span>
+          Children's Department
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>The Children's Ministry equips children of all ages with the word of God, running concurrently with the Sunday worship service.</p>
+        <ul>
+          <li>Age groups: 1–3, 4–6, 6–8, and 9–12 year olds</li>
+          <li>Programme includes prayer, Bible lessons, memory verses, songs, and physical activities</li>
+          <li>Activities: drama, outings, video days, sports day, Bible quiz, camps</li>
+          <li>Goal: raise a godly, Spirit-filled youth who will not be ashamed of the Gospel</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dept-item">
+      <div class="dept-header" onclick="toggleDept(this)">
+        <span class="dept-title">
+          <span class="dept-title-icon"><img class="jck-icon" src="images/icons/shield-cross.svg" alt=""></span>
+          Security Department
+        </span>
+        <span class="dept-arrow"><i class="ti ti-chevron-down"></i></span>
+      </div>
+      <div class="dept-body">
+        <p>As Apostle says, the Church is a Spiritual Parliament — and like any parliament, it requires security and protocol.</p>
+        <ul>
+          <li>Stationed at entrance/exit doors, working with ushers</li>
+          <li>Guard the movement of the Man of God throughout services</li>
+          <li>Must be first to arrive and last to leave</li>
+          <li>Alert, flexible, fit, and able to communicate with other units</li>
+          <li>Must be a baptised JCK member, honest, and willing to serve</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p><strong>Jesus Christ Kingdom</strong> · Sons and Daughters of Revelation<br>
+  SAMCOR PARK, Pretoria · Est. May 2012 · Apostle Alloyd N Moyo<br>
+  <span style="font-size:11px;color:rgba(255,255,255,0.18);">JCK Life Changers · NPO Registration 174-699-NPO</span></p>
+</footer>
+
+<div class="nav-backdrop" id="navBackdrop"></div>
+<script src="script.js"></script>
+</body>
+</html>

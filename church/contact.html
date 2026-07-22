@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact – Jesus Christ Kingdom</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="rainbow-stripe"></div>
+
+<header>
+  <div class="logo-area">
+    <img class="logo-img" id="headerLogo" src="images/334c877e-0ec5-42a5-9dc8-2d06a6912757 (1).png" alt="JCK Logo">
+    <div class="logo-text">
+      <h1>Jesus Christ Kingdom</h1>
+      <p>Sons and Daughters of Revelation</p>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="departments.html">Departments</a>
+    <a href="lifechangers.html">Life Changers</a>
+    <a href="donations.html">Donate</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><i class="ti ti-menu-2"></i></button>
+</header>
+
+<div class="hero" style="min-height:44vh;">
+  <div class="hero-content">
+    <p class="hero-eyebrow">We'd Love to Hear From You</p>
+    <h2>Find <span>Us</span></h2>
+  </div>
+</div>
+
+<div class="section">
+  <div class="counsel-header reveal">
+    <p class="section-label">Confidential &amp; Caring</p>
+    <h2 class="section-title">Request <span style="color:var(--gold);">Counselling</span></h2>
+    <div class="divider"></div>
+    <p class="section-subtitle">Fill in the form below and a pastor will reach out to you personally. All requests are treated with complete confidentiality.</p>
+  </div>
+  <div class="counsel-card reveal">
+    <form id="counsellingForm" novalidate>
+      <div class="form-group">
+        <label class="form-label" for="c-name">Full Name <span class="req">*</span></label>
+        <input class="form-input" type="text" id="c-name" placeholder="Your full name" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="c-phone">Phone / WhatsApp Number <span class="req">*</span></label>
+        <input class="form-input" type="tel" id="c-phone" placeholder="e.g. 082 123 4567" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="c-type">Type of Counselling <span class="req">*</span></label>
+        <select class="form-input" id="c-type" required>
+          <option value="" disabled selected>Select a category</option>
+          <option>Spiritual Growth</option>
+          <option>Marriage &amp; Relationship</option>
+          <option>Grief &amp; Loss</option>
+          <option>Family</option>
+          <option>Youth</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="c-desc">Brief Description</label>
+        <textarea class="form-input" id="c-desc" rows="4" placeholder="Briefly describe what you'd like to discuss (optional)..."></textarea>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="c-contact">Preferred Contact Method</label>
+          <select class="form-input" id="c-contact">
+            <option>WhatsApp</option>
+            <option>Phone Call</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="c-time">Best Time to Reach You</label>
+          <select class="form-input" id="c-time">
+            <option>Morning (7am – 12pm)</option>
+            <option>Afternoon (12pm – 5pm)</option>
+            <option>Evening (5pm – 8pm)</option>
+          </select>
+        </div>
+      </div>
+      <div id="form-error" class="form-error" style="display:none;"></div>
+      <button type="submit" class="btn-primary counsel-btn">
+        <i class="ti ti-brand-whatsapp"></i> Send Request via WhatsApp
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="section">
+  <div class="contact-grid">
+    <div class="contact-card reveal-left">
+      <h3>Jesus Christ Kingdom Church</h3>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/map-pin.svg" alt=""></div><div class="contact-info"><strong>Physical Address</strong><br>244 Vonkprop Street<br>SAMCOR PARK, Pretoria, 0184</div></div>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/envelope.svg" alt=""></div><div class="contact-info"><strong>Postal Address</strong><br>P O Box 11697, Erasmuskloof, 0048</div></div>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/calendar.svg" alt=""></div><div class="contact-info"><strong>Sunday Service</strong><br>Doors open from 8:00 AM</div></div>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/music-note.svg" alt=""></div><div class="contact-info"><strong>Choir Practice</strong><br>Every Friday · 18:30 – 20:30</div></div>
+    </div>
+    <div class="contact-card reveal-right">
+      <h3>JCK Life Changers NPO</h3>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/user.svg" alt=""></div><div class="contact-info"><strong>Pastor</strong><br>Ps. Joseph Sithole</div></div>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/phone.svg" alt=""></div><div class="contact-info"><strong>Phone</strong><br>069 390 7152</div></div>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/id-badge.svg" alt=""></div><div class="contact-info"><strong>NPO Registration</strong><br>174-699-NPO</div></div>
+      <div class="contact-row"><div class="contact-icon-wrap"><img class="jck-icon" src="images/icons/cross.svg" alt=""></div><div class="contact-info"><strong>Founded By</strong><br>Apostle Alloyd N Moyo<br><em style="font-size:12px;">Jesus Christ Kingdom Church, Est. May 2012</em></div></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p><strong>Jesus Christ Kingdom</strong> · Sons and Daughters of Revelation<br>
+  SAMCOR PARK, Pretoria · Est. May 2012 · Apostle Alloyd N Moyo<br>
+  <span style="font-size:11px;color:rgba(255,255,255,0.18);">JCK Life Changers · NPO Registration 174-699-NPO</span></p>
+</footer>
+
+<div class="nav-backdrop" id="navBackdrop"></div>
+<script src="script.js"></script>
+</body>
+</html>
