@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" fill="#1e3a5f"/>
+  <!-- Can body (trapezoid, wider at bottom) -->
+  <path d="M68 108 L56 204 Q56 220 80 220 L176 220 Q200 220 200 204 L188 108 Z" fill="white"/>
+  <!-- Lid -->
+  <rect x="60" y="96" width="136" height="18" rx="9" fill="white"/>
+  <!-- Spout angled up-right, fits within circle -->
+  <path d="M188 136 L228 76 Q234 64 226 58 Q218 52 212 62 L172 124 Z" fill="white"/>
+  <!-- Nozzle tip -->
+  <ellipse cx="222" cy="56" rx="10" ry="14" fill="white"/>
+  <!-- Handle arc over top -->
+  <path d="M72 104 Q72 36 128 36 Q184 36 184 104" stroke="white" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <!-- Water drops -->
+  <circle cx="216" cy="82" r="7" fill="white"/>
+  <circle cx="228" cy="96" r="6" fill="white"/>
+  <circle cx="208" cy="96" r="5" fill="white"/>
+</svg>
